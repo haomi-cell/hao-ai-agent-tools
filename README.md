@@ -1,4 +1,21 @@
-# Tools AI Agen Hao — by 𝐱𝙈𝙎𝙃𝙖𝙤𝙢𝙞
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003b0f,50:00ff41,100:003b0f&height=130&section=header" width="100%"/>
+
+<div align="center">
+
+# 🧬 HAO AI AGENT TOOLS
+
+### `root@haomi ~ #` *full agent stack — one command install*
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&repeat=true&width=520&lines=OSINT+SCANNER+%C2%B7+2521+PLATFORMS;STEALTH+SCRAPING+%C2%B7+ANTI-BAN;358+SKILLS+%C2%B7+READY+TO+DEPLOY;MBOTEN+NGAPUSI" alt="typing"/>
+
+<img src="https://img.shields.io/badge/SKILLS-358-00ff41?style=flat-square&labelColor=000000"/>
+<img src="https://img.shields.io/badge/OSINT-2521%20MODULES-00ff41?style=flat-square&labelColor=000000"/>
+<img src="https://img.shields.io/badge/VERIFY-9%2F10%20PASS-00ff41?style=flat-square&labelColor=000000"/>
+<img src="https://img.shields.io/badge/LICENSE-MIT-00ff41?style=flat-square&labelColor=000000"/>
+
+</div>
+
+---
 
 **Creator & Owner: 𝐱𝙈𝙎𝙃𝙖𝙤𝙢𝙞**
 
@@ -74,3 +91,21 @@ Setiap push diverifikasi otomatis oleh GitHub Actions (`.github/workflows/ci.yml
 ├── THIRD-PARTY-NOTICES                 ← lisensi komponen
 └── LICENSE (MIT — 𝐱𝙈𝙎𝙃𝙖𝙤𝙢𝙞)
 ```
+
+---
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/STATUS-WORKING-00ff41?style=flat-square&labelColor=000000"/>
+<img src="https://img.shields.io/badge/TESTED-LIVE-00ff41?style=flat-square&labelColor=000000"/>
+<img src="https://img.shields.io/badge/BUILD-PASSING-00ff41?style=flat-square&labelColor=000000"/>
+
+<br>
+
+<a href="https://Wa.me/+6282231669053">[ <img src="https://img.shields.io/badge/CONTACT-▸_WHATSAPP-25D366?style=for-the-badge&labelColor=000000&logo=whatsapp&logoColor=white"/> ]</a>
+
+**𝐱𝙈𝙎𝙃𝙖𝙤𝙢𝙞** — *mboten ngapusi* 🐍
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003b0f,50:00ff41,100:003b0f&height=90&section=footer" width="100%"/>
