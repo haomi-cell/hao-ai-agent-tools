@@ -8,10 +8,27 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&repeat=true&width=520&lines=OSINT+SCANNER+%C2%B7+2521+PLATFORMS;STEALTH+SCRAPING+%C2%B7+ANTI-BAN;358+SKILLS+%C2%B7+READY+TO+DEPLOY;MBOTEN+NGAPUSI" alt="typing"/>
 
-<img src="https://img.shields.io/badge/SKILLS-358-00ff41?style=flat-square&labelColor=000000"/>
-<img src="https://img.shields.io/badge/OSINT-2521%20MODULES-00ff41?style=flat-square&labelColor=000000"/>
-<img src="https://img.shields.io/badge/VERIFY-9%2F10%20PASS-00ff41?style=flat-square&labelColor=000000"/>
-<img src="https://img.shields.io/badge/LICENSE-MIT-00ff41?style=flat-square&labelColor=000000"/>
+<img src="https://media.giphy.com/media/A06UFEx8jxEwU/giphy.gif" width="420" alt="matrix"/>
+
+<br>
+
+<img src="https://img.shields.io/badge/SKILLS-358-00ff41?style=for-the-badge&labelColor=000000"/>
+<img src="https://img.shields.io/badge/OSINT-2521%20MODULES-00ff41?style=for-the-badge&labelColor=000000"/>
+<img src="https://img.shields.io/badge/VERIFY-9%2F10%20PASS-00ff41?style=for-the-badge&labelColor=000000"/>
+<img src="https://img.shields.io/badge/LICENSE-MIT-00ff41?style=for-the-badge&labelColor=000000"/>
+
+<br>
+
+```bash
+root@haomi:~# ./install.sh
+  [✓] user-scanner ......... 2521 modules + MCP server
+  [✓] scrapling ............ stealth fetcher online
+  [✓] skills ............... 358 SKILL.md deployed
+  [✓] openclaude ........... v0.33.0 headless ready
+  [✓] hermes-agent ......... brain initialized
+  [✓] verify.sh ............ 9/10 PASS
+root@haomi:~# █
+```
 
 </div>
 
