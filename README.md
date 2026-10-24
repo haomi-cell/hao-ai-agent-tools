@@ -24,9 +24,10 @@ Generate video otomatis dari topik: script (LLM) + stock footage + TTS + subtitl
 ### 📚 public-apis — Katalog API
 Katalog 1.400+ API gratis per kategori untuk referensi development.
 
-### 🏗️ archify + karpathy-guidelines + ECC Skills (330+)
+### 🏗️ archify + karpathy-guidelines + Hermes-core + ECC Skills (675+)
 - **archify** — validasi arsitektur/workflow/sequence diagram
 - **karpathy-guidelines** — disiplin coding LLM: think first, simplicity, surgical changes, goal-driven
+- **45 hermes-core skills** — ai-memory (retrieval/routing/handoff), WhatsApp/Telegram ops, website builder, deploy hosting, email triage, productivity (Docs/Sheets/Slides), research (arxiv), software-development (TDD, debugging, deploy), OSINT scan, payment gateway, dll
 - **311 ECC skills** — TDD, code review, security scan, agent orchestration, patterns Django/FastAPI/React/Go/Rust/dll
 
 ### 🧰 Repo pendukung (15)
@@ -52,6 +53,7 @@ Butuh: python3, pip/uv, node ≥22, npm, git.
 ```
 ├── setup.sh / setup2.sh / verify.sh   ← installer & verifier
 ├── skills/
+│   ├── hermes-core/                   ← 45 skill bawaan agent
 │   ├── karpathy-guidelines/           ← SKILL.md + CLAUDE.md
 │   └── ecc-skills/                    ← 311 skill workflow
 ├── mcp/user-scanner.mcp.json          ← konfigurasi MCP

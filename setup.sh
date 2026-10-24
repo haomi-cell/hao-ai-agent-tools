@@ -19,7 +19,10 @@ uv pip install --python "$TOOLS_DIR/scrapling-venv/bin/python" "scrapling[all]" 
 "$TOOLS_DIR/scrapling-venv/bin/scrapling" install || echo "[!] browser deps gagal — lanjut (stealth fetcher butuh ini)"
 "$TOOLS_DIR/scrapling-venv/bin/python" -m playwright install chromium || true
 
-echo "== 3/6 Skills: karpathy-guidelines =="
+echo "== 3/6 Skills: hermes-core (45 skill bawaan) =="
+cp -r "$BASE/skills/hermes-core/." "$SKILLS_DIR/" 2>/dev/null || true
+
+echo "== 3b/6 Skills: karpathy-guidelines =="
 cp -r "$BASE/skills/karpathy-guidelines" "$SKILLS_DIR/" 2>/dev/null || true
 
 echo "== 4/6 Skills: ECC (311 workflow skills) =="
