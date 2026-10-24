@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "user-scanner": {
+      "command": "/home/agentuser/tools/user-scanner-venv/bin/user-scanner-mcp",
+      "args": [],
+      "description": "OSINT username/email scanner — scan 2521 platforms + 210 email services. Tools: scan_username, scan_email, list_categories."
+    }
+  }
+}
