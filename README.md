@@ -49,10 +49,29 @@ Repositori rangkuman + skrip setup otomatis untuk semua tool & skill AI agent ya
 
 ## Cara pakai di mesin baru
 ```bash
-git clone <repo-url> && cd <repo>
-./setup.sh      # install semua (butuh: python3, uv/pip, node, npm)
+git clone https://github.com/haomi-cell/hao-ai-agent-tools && cd hao-ai-agent-tools
+./setup.sh      # bagian 1: 5 tools utama + MPT + public-apis + archify
+./setup2.sh     # bagian 2: Hermes Agent, semua skills, 15 repo pendukung
 ./verify.sh     # verifikasi semua jalan
 ```
+
+## Komponen lengkap (bagian 2 — setup2.sh)
+
+### Hermes Agent — "otak" AI agent
+- Sumber: https://github.com/NousResearch/hermes-agent (docs: https://hermes-agent.nousresearch.com/docs)
+- Fungsi: AI agent runtime — skills, cron, memory, MCP, multi-platform (WhatsApp/Telegram). Struktur config dibuat di `~/.hermes/`.
+
+### openclaude / openclaw
+- openclaude (npm `@twigpine/openclaude` v0.33.0): coding-agent CLI multi-provider, headless `-p` mode.
+- Juga tersedia sebagai paket prebuilt di `~/tools/openclaude-pkg` (Node 22 fallback).
+
+### Skills (330+ SKILL.md di `~/.hermes/skills/integrasi/`)
+- `karpathy-guidelines` (SKILL.md + CLAUDE.md)
+- `ecc-skills/` — 311 workflow skills
+- skill bawaan Hermes: ai-memory-*, android-apk-triage, api-portal-builder, autonomous-ai-agents, dll.
+
+### Repo pendukung (di-clone ke `~/tools/`)
+- ai-memory, bumblebee, context7, galaxy, motion, rea, caveman, anti-slop, no-ai-slop, daisyui, tabler-icons, dealtech-ui-for-public-component, video, VoiceStudio, OpenMontage
 
 ## Catatan penting
 - Semua repo sumber tetap tersedia di `~/tools/` untuk referensi.
