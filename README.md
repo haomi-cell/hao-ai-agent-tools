@@ -36,11 +36,21 @@ ai-memory, bumblebee, context7, galaxy, motion, rea, caveman, anti-slop, no-ai-s
 ## Install (mesin baru)
 ```bash
 git clone https://github.com/haomi-cell/hao-ai-agent-tools && cd hao-ai-agent-tools
+./install.sh    # all-in-one: setup1 + setup2 + verify
+```
+atau step per step:
+```bash
 ./setup.sh      # tools utama + skills
 ./setup2.sh     # Hermes Agent + repo pendukung
 ./verify.sh     # cek semua jalan
 ```
-Butuh: python3, pip/uv, node ≥22, npm, git.
+Butuh: Linux, python3, pip/uv, node ≥22, npm, git. (Windows: pakai WSL.)
+
+## Contoh pemakaian
+Lihat [`examples/EXAMPLES.md`](examples/EXAMPLES.md) — OSINT scan, scraping, coding agent, video generator, MCP, memicu skills.
+
+## CI
+Setiap push diverifikasi otomatis oleh GitHub Actions (`.github/workflows/ci.yml`): setup + verify di runner bersih. Lihat tab **Actions** untuk status terbaru.
 
 ## Verifikasi hasil install di server asli
 - user-scanner CLI ✅ + MCP ✅ (scan live OK)
@@ -51,12 +61,16 @@ Butuh: python3, pip/uv, node ≥22, npm, git.
 
 ## Struktur
 ```
-├── setup.sh / setup2.sh / verify.sh   ← installer & verifier
+├── install.sh                          ← all-in-one installer
+├── setup.sh / setup2.sh / verify.sh    ← installer & verifier
 ├── skills/
-│   ├── hermes-core/                   ← 45 skill bawaan agent
-│   ├── karpathy-guidelines/           ← SKILL.md + CLAUDE.md
-│   └── ecc-skills/                    ← 311 skill workflow
-├── mcp/user-scanner.mcp.json          ← konfigurasi MCP
-├── THIRD-PARTY-NOTICES                ← lisensi komponen
+│   ├── hermes-core/                    ← 45 skill bawaan agent
+│   ├── karpathy-guidelines/            ← SKILL.md + CLAUDE.md
+│   ├── archify/                        ← skill diagram + bin/ CLI
+│   └── ecc-skills/                     ← 311 skill workflow
+├── examples/EXAMPLES.md                ← contoh pemakaian
+├── .github/workflows/ci.yml            ← CI verifikasi otomatis
+├── mcp/user-scanner.mcp.json           ← konfigurasi MCP
+├── THIRD-PARTY-NOTICES                 ← lisensi komponen
 └── LICENSE (MIT — 𝐱𝙈𝙎𝙃𝙖𝙤𝙢𝙞)
 ```

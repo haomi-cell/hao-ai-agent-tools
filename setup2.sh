@@ -17,7 +17,9 @@ else
     || echo "  ⚠️ clone hermes-agent gagal, cek koneksi"
 fi
 
-echo "== Repo pendukung =="
+"
+echo "== archify skill + CLI =="
+cp -r "$BASE/skills/archify" "$SKILLS_DIR/" && echo "  ✅ archify (skill + bin/archify.mjs)"
 clone() { [ -d "$TOOLS_DIR/$2" ] && { echo "  $2 skip"; return; }; git clone --depth 1 "$1" "$TOOLS_DIR/$2" 2>/dev/null && echo "  ✅ $2" || echo "  ⚠️ $2"; }
 clone https://github.com/akitaonrails/ai-memory ai-memory
 clone https://github.com/perplexityai/bumblebee bumblebee

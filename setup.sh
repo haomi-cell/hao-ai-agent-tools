@@ -9,13 +9,13 @@ mkdir -p "$TOOLS_DIR" "$SKILLS_DIR"
 
 echo "== 1/6 user-scanner (OSINT + MCP) =="
 uv venv "$TOOLS_DIR/user-scanner-venv" 2>/dev/null || python3 -m venv "$TOOLS_DIR/user-scanner-venv"
-uv pip install --python "$TOOLS_DIR/user-scanner-venv/bin/python" "user-scanner[mcp]" \
+uv pip install --python "$TOOLS_DIR/user-scanner-venv/bin/python" "user-scanner[mcp]==1.5.2.3" \
   || "$TOOLS_DIR/user-scanner-venv/bin/pip" install "user-scanner[mcp]"
 
 echo "== 2/6 Scrapling (web scraping) =="
 uv venv "$TOOLS_DIR/scrapling-venv" 2>/dev/null || python3 -m venv "$TOOLS_DIR/scrapling-venv"
-uv pip install --python "$TOOLS_DIR/scrapling-venv/bin/python" "scrapling[all]" \
-  || "$TOOLS_DIR/scrapling-venv/bin/pip" install "scrapling[all]"
+uv pip install --python "$TOOLS_DIR/scrapling-venv/bin/python" "scrapling[all]==0.5" \
+  || "$TOOLS_DIR/scrapling-venv/bin/pip" install "scrapling[all]==0.5"
 "$TOOLS_DIR/scrapling-venv/bin/scrapling" install || echo "[!] browser deps gagal — lanjut (stealth fetcher butuh ini)"
 "$TOOLS_DIR/scrapling-venv/bin/python" -m playwright install chromium || true
 
