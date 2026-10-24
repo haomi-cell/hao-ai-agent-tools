@@ -1,0 +1,33 @@
+THIRD-PARTY NOTICES
+===================
+
+Komponen open-source yang dibundel/direferensikan dalam repo ini beserta
+lisensinya. Semua lisensi di bawah mengizinkan redistribusi dengan
+menyertakan notice ini.
+
+- user-scanner — MIT — (c) kaifcodec
+- Scrapling — BSD-3-Clause — (c) D4Vinci
+- ECC skills — MIT — (c) affaan-m
+- Andrej Karpathy guidelines (multica-ai fork) — MIT
+- openclaude — MIT — (c) Twigpine / gitlawb
+- MoneyPrinterTurbo — MIT — (c) harry0703
+- public-apis — MIT — (c) public-apis contributors
+- ai-memory — MIT — (c) akitaonrails
+- bumblebee — Apache-2.0 — (c) Perplexity AI
+- context7 — MIT — (c) Upstash
+- galaxy — MIT — (c) uiverse-io
+- motion — MIT — (c) Motion Division
+- rea — MIT — (c) morluto
+- caveman — MIT — (c) JuliusBrussee
+- anti-slop — MIT — (c) miqdadbadjuber
+- no-ai-slop — MIT — (c) petergyang
+- daisyui — MIT — (c) saadeghi
+- tabler-icons — MIT — (c) tabler
+- dealtech-ui-for-public-component — MIT — (c) Deal-Tech
+- video — MIT — (c) Isallkun
+- VoiceStudio — MIT — (c) debpalash
+- OpenMontage — MIT — (c) calesthio
+- Hermes Agent — lisensi sesuai repo NousResearch/hermes-agent
+
+Skill lain di folder skills/ mempertahankan header lisensi asli di dalam
+SKILL.md masing-masing bila ada.

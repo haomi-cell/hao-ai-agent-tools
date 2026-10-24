@@ -1,4 +1,0 @@
-*.local.*
-output/
-__pycache__/
-.venv/
